@@ -240,6 +240,7 @@ img {
    letter-spacing:0.02em;
    text-transform:capitalize;
    color:#2e2f42;
+   margin-bottom:72px;
  }
 
  .team-list {
@@ -257,17 +258,24 @@ img {
       0 1px 6px rgba(46, 47, 66, 0.08);
  }
 
+ .subtitle-container {
+   padding:32px 0;
+ }
+
  .team-subtitle {
    font-weight:500;
    font-size:20px;
    line-height:1.2;
    letter-spacing: 0.02em;
-   color: #2e2f42
+   color: #2e2f42;
+   text-align: center;
+   margin-bottom: 8px;
  }
 
  .team-text {
    line-height:1.5;
-   letter-spacing:0.02em; 
+   letter-spacing:0.02em;
+   text-align:center;
  }
 
  .portfolio {
