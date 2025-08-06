@@ -165,7 +165,7 @@ img {
 .page-footer {
     background-color: #2e2f42;
     cursor: pointer;
-   padding: 100px 1020px 100px 156px;
+   padding: 100px 0;
  }
 
  .footer-logo .logo-part {
@@ -327,7 +327,7 @@ width: calc((100% - 48px) / 3);
  }
 
  .footer-logo {
-    display: block;
+    display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
