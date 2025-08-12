@@ -39,6 +39,7 @@ img {
    height: auto;
 }
 
+/*Header styles*/
 .page-header {
    border-bottom: 1px solid #e7e9fc;
 }
@@ -123,6 +124,7 @@ img {
     color: #404bbf;
  }
  
+ /*Section 1*/
 .section-page {
    background-color: #2e2f42;
    padding: 188px 0;
@@ -157,9 +159,9 @@ img {
       color: #ffffff;
    }
       
-         .order-button:hover,
-         .order-button:focus {
-            background-color: #404bbf;
+    .order-button:hover,
+    .order-button:focus {
+    background-color: #404bbf;
          }
       
 .page-footer {
@@ -171,15 +173,13 @@ img {
  .footer-logo .logo-part {
      color:  #f4f4fd;
  }
+
+ /*Benefits 2*/
  .benefits {
    padding:120px 0; 
 }
 
- /*.section2-container {
-   padding: 120px 0;
- }*/
-
- .visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -192,17 +192,6 @@ img {
     overflow: hidden;
  }
 
- /*.benbefits-title {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   margin: -1px;
-   border: 0;
-   padding: 0;
-   white-space: nowrap;
-      clip-path: inset(100%);
-      overflow: hidden;
- }*/
 
  .benefits-list {
    display: flex;
@@ -214,6 +203,7 @@ img {
  .benefits-item {
    width: calc((100%-72)/4);;
  }
+
  .benefits-subtitle {
    font-weight:500;
    font-size:20px;
@@ -221,7 +211,6 @@ img {
    letter-spacing:0.02em;
    color: #2e2f42;
    text-transform: capitalize;
-   /*padding-bottom:72px;*/
    text-align: center;
    margin-bottom:8px;
  }
@@ -233,6 +222,7 @@ img {
    color:#434455;
    }
 
+   /*Section 3*/
  .team {
    background-color:#F4F4FD;
    padding: 120px 0;
@@ -283,6 +273,7 @@ img {
    text-align:center;
  }
 
+ /*Section 4*/
  .portfolio {
    padding: 120px 0;
    
@@ -318,7 +309,7 @@ width: calc((100% - 48px) / 3);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+   margin-bottom: 8px;
  }
 
  .project-box {
